@@ -146,7 +146,7 @@ LjSacZsYqWRmM+9k6w3XZren33fIXweEguZ7raQapV8=
 	position: relative;
 	display: block;
 
-	margin-left: -1px; /* align with text-field -  adjust to the border  */
+	margin-left: 1px; /* align with text-field -  adjust to the border  */
 
 	color: var(--color-grey-dark);
 	line-height: 1.8;
