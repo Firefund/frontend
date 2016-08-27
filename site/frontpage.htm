@@ -37,17 +37,42 @@
 
 				<div class="f-row__cell f-row_not-mobile">
 					<div class="f-hero__heading">
-						<h1>We organize</h1><h1 class="element"></h1>
+						<h1>We organize</h1><h1 class="f-typewriter__hero-headline"></h1>
 					</div>
 				</div>
 
 				<div class="f-row__cell f-row_not-desktop">
-					<div class="f-hero__heading_mobile">
-						<h1>We organize</h1><h1 class="element"></h1>
+					<div class="f-hero__wrapper">
+						<div class="f-hero__heading_mobile">
+							<h1>We organize</h1><h1 class="f-typewriter__hero-headline"></h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="f-row__cell">
+					<div class="f-hero__text">
+						<span class="f-typewriter__hero-text_1"></span>
+					</div>
+				</div>
+
+				<div class="f-row__cell">
+					<div class="f-hero__text">
+						<span class="f-typewriter__hero-text_2"></span>
+					</div>
+				</div>
+
+				<div class="f-row__cell">
+					<div class="f-hero__text">
+						<span class="f-typewriter__hero-text_3"></span>
 					</div>
 				</div>
 
 
+				<div class="f-row__cell">
+					<div class="f-hero__text f-hero__text_splash">
+						<p class="f-typewriter__hero-text_4"></p>
+					</div>
+				</div>
 
 			</div>
 		</div>
@@ -132,14 +157,15 @@
 		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':10421/livereload.js?snipver=1"></' + 'script>')
 	</script>
 
+<!-- Headline typewriter -->
 	<script>
 		$(function(){
-			$(".element").typed({
-				strings: ["solidarity", "crowdfunding", "mutual aid", "direct action"],
+			$(".f-typewriter__hero-headline").typed({
+				strings: ["solidarity", "crowdfunding", "mutual aid", "direct action", "strikes", "legal aid"],
 				// typing speed
 				typeSpeed: 0,
 				// time before typing starts
-				startDelay: 1000,
+				startDelay: 5000,
 				// backspacing speed
 				backSpeed: 0,
 				// time before backspacing
@@ -167,6 +193,152 @@
 			});
 		});
 	</script>
+
+<!-- Hero text typewriters -->
+	<script>
+		$(function(){
+			$(".f-typewriter__hero-text_1").typed({
+				strings: ["We made a webplatform for political crowdfunding,"],
+				// typing speed
+				typeSpeed: -50,
+				// time before typing starts
+				startDelay: 0,
+				// backspacing speed
+				backSpeed: 0,
+				// time before backspacing
+				backDelay: 2000,
+				// loop
+				loop: false,
+				// false = infinite
+				loopCount: false,
+				// show cursor
+				showCursor: false,
+				// character for cursor
+				cursorChar: "",
+				// attribute to type (null == text)
+				attr: null,
+				// either html or text
+				contentType: 'text',
+				// call when done callback function
+				callback: function() {},
+				// starting callback function before each string
+				preStringTyped: function() {},
+				//callback for every typed string
+				onStringTyped: function() {},
+				// callback for reset
+				resetCallback: function() {}
+			});
+		});
+	</script>
+
+	<script>
+		$(function(){
+			$(".f-typewriter__hero-text_2").typed({
+				strings: ["because we believe solidarity is a strong thing, "],
+				// typing speed
+				typeSpeed: -50,
+				// time before typing starts
+				startDelay: 0,
+				// backspacing speed
+				backSpeed: 0,
+				// time before backspacing
+				backDelay: 2000,
+				// loop
+				loop: false,
+				// false = infinite
+				loopCount: false,
+				// show cursor
+				showCursor: false,
+				// character for cursor
+				cursorChar: "",
+				// attribute to type (null == text)
+				attr: null,
+				// either html or text
+				contentType: 'text',
+				// call when done callback function
+				callback: function() {},
+				// starting callback function before each string
+				preStringTyped: function() {},
+				//callback for every typed string
+				onStringTyped: function() {},
+				// callback for reset
+				resetCallback: function() {}
+			});
+		});
+	</script>
+
+	<script>
+		$(function(){
+			$(".f-typewriter__hero-text_3").typed({
+				strings: ["with unrealised potential."],
+				// typing speed
+				typeSpeed: -50,
+				// time before typing starts
+				startDelay: 0,
+				// backspacing speed
+				backSpeed: 0,
+				// time before backspacing
+				backDelay: 2000,
+				// loop
+				loop: false,
+				// false = infinite
+				loopCount: false,
+				// show cursor
+				showCursor: false,
+				// character for cursor
+				cursorChar: "",
+				// attribute to type (null == text)
+				attr: null,
+				// either html or text
+				contentType: 'text',
+				// call when done callback function
+				callback: function() {},
+				// starting callback function before each string
+				preStringTyped: function() {},
+				//callback for every typed string
+				onStringTyped: function() {},
+				// callback for reset
+				resetCallback: function() {}
+			});
+		});
+	</script>
+
+	<script>
+		$(function(){
+			$(".f-typewriter__hero-text_4").typed({
+				strings: ["September, 2016 - #rentstrike"],
+				// typing speed
+				typeSpeed: -25,
+				// time before typing starts
+				startDelay: 5000,
+				// backspacing speed
+				backSpeed: 0,
+				// time before backspacing
+				backDelay: 2000,
+				// loop
+				loop: false,
+				// false = infinite
+				loopCount: false,
+				// show cursor
+				showCursor: false,
+				// character for cursor
+				cursorChar: "",
+				// attribute to type (null == text)
+				attr: null,
+				// either html or text
+				contentType: 'text',
+				// call when done callback function
+				callback: function() {},
+				// starting callback function before each string
+				preStringTyped: function() {},
+				//callback for every typed string
+				onStringTyped: function() {},
+				// callback for reset
+				resetCallback: function() {}
+			});
+		});
+	</script>
+	
 	<script src="lib/typed.js" charset="utf8" async></script>
 
 </body>
