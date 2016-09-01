@@ -102,6 +102,7 @@ BLOCK f-hero
 
 /*	background-color: var(--color-black-transparent);*/
 
+<<<<<<< HEAD
 	color: var(--color-black);
 	font-size: 7.7rem;
 	font-weight: lighter;
@@ -119,6 +120,11 @@ BLOCK f-hero
 	color: var(--color-black);
 	font-size: 4.7rem;
 	font-weight: lighter;
+=======
+  color: var(--color-white);
+  font-size: 4.5rem;
+  font-weight: bold;
+>>>>>>> e64b6fa5a7e01c95dcea48a8af9b064d63d84405
 }
 
 .f-hero__text {
