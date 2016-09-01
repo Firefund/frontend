@@ -115,10 +115,9 @@ BLOCK f-hero
 	padding-left: 0.8rem;
 
 	background-color: var(--color-black-transparent);
-
-	color: var(--color-black);
-	font-size: 4.7rem;
-	font-weight: lighter;
+	color: var(--color-white);
+	font-size: 4.5rem;
+	font-weight: bold;
 }
 
 .f-hero__text {
