@@ -24,6 +24,10 @@ So you can't see it without something on each side.
 */
 
 .f-spacer {
-		display: block;
+	display: block;
     height: 6rem;
+}
+
+.f-spacer_big {
+	height: 30rem;
 }
