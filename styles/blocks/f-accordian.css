@@ -126,7 +126,7 @@ MODIFIER f-accordian_link
 }
 
 .f-accordian__heading {
-	margin: 0;
+	margin: 2rem 0 0 0;
 
 	color: var(--color-grey-dark);
 	font-size: 3.6rem;
@@ -143,7 +143,7 @@ MODIFIER f-accordian_link
 }
 
 .f-accordian__cuff-text {
-	margin: 0;
+	margin: 2rem 0 0 0;
 	height: 6.4rem;
 
 	color: var(--color-grey-dark);
@@ -284,11 +284,11 @@ MODIFIER f-accordian_link
 */
 
 .f-accordian_link .f-accordian__heading {
-	margin-bottom: 2rem;
+	margin-bottom: 0;
 }
 
 .f-accordian_link .f-accordian__cuff-wrapper {
-	height: 4.4rem;
+	height: 6.4rem;
 }
 
 .f-accordian_link .f-accordian__cuff-wrapper {
