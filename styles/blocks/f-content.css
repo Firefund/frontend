@@ -112,3 +112,12 @@ BLOCK f-content
 
     lost-center: var(--page-max-width);
 }
+
+.f-content_black {
+  padding: 0 var(--gutter-width);
+
+    background-color: var(--color-black);
+    border-radius: 0.3rem;
+
+    lost-center: var(--page-max-width);
+}
