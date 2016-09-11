@@ -65,6 +65,8 @@ BLOCK f-hero
 	background-image: url(../../assets/image/rentstrike3.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom; /* cut sides until media query limit */
+
+	height: 35rem;
 	}
 
 /* `<img>` tags are hidden */
