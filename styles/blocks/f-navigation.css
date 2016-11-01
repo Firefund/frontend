@@ -34,12 +34,14 @@ Site navigation links.
 
 	lost-center: var(--page-max-width);
 }
+
 .f-navigation__link {
 	color: var(--color-grey-light, hsla(0, 0%, 84.7%, 1));
 	font-size: 1.8rem;
 	font-weight: lighter;
 	line-height: 4.8rem;
 	text-decoration: none;
+	text-align: right;
 
 	cursor: pointer;
 	transition: color 260ms ease-out;
@@ -47,3 +49,5 @@ Site navigation links.
 .f-navigation__link:hover {
 	color: var(--color-white, hsla(0, 0%, 100%, 1));
 }
+
+

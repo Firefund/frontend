@@ -65,6 +65,10 @@ BLOCK f-button-icon
 	outline: 0 none;
 }
 
+.f-button-icon__wrapper {
+	margin: 3.2rem 0 3.2rem 0;
+}
+
 .f-button-icon::-moz-focus-inner {
 	border: 0; /*KLUDGE: remove outline in Firefox */
 }
