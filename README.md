@@ -16,9 +16,8 @@ make -v
 ```
 
 1. Install [git](https://git-scm.com/downloads) our version control
-2. Install [git lfs](https://git-lfs.github.com/) our version control for large files like pictures and illustrator documents
-3. Install [nodejs](https://nodejs.org/en/) our server platform and platform for various helper tools
-4. Install [make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm). It's preinstalled on Mac.
+2. Install [nodejs](https://nodejs.org/en/) our server platform and platform for various helper tools
+3. Install [make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm). It's preinstalled on Mac.
 Probably also with your linux distro. Make is a task runner designed for compiling files. 
 
 
@@ -28,6 +27,7 @@ Probably also with your linux distro. Make is a task runner designed for compili
 1. Download the repository (`git clone --depth=1 https://github.com/Firefund/frontend.git`) and cd into the frontend folder.
 2. `npm i` - download the node packages that we depend on.
 3. `npm install -g bower` - downloads Bower
+4. 'npm start' will run our website, and 'npm run kalei' our design guide. It's a little different for the frontend repo'. 
 4. Go to [localhost:8080](localhost:8080) in your browser (preferably in two or three different, like firefox and chrome
 to ensure that your styles work in all browsers)
 5. Start developing css in `styles/blocks/`
