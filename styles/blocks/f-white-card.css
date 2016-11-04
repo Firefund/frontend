@@ -43,7 +43,9 @@ BLOCK f-white-card
 }
 
 .f-white-card_history {
-	height: 84rem;
+	display: inline-flex;
+
+	height: 100%;
 	text-align: none;
 
 
