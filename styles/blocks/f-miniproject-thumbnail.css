@@ -171,12 +171,12 @@ BLOCK f-miniproject-thumbnail
 	border-radius: 0.5rem;
 	background-color: var(--color-white);
 
-/*	border-style: solid;
-	border-width: 1px;*/
+	border-style: solid;
+	border-width: 1px;
 
-	-webkit-box-shadow: -5px 6px 16px -2px var(--color-black);
+/*	-webkit-box-shadow: -5px 6px 16px -2px var(--color-black);
     -moz-box-shadow: -5px 6px 16px -2px var(--color-black);
-    box-shadow: -5px 6px 16px -2px var(--color-black);
+    box-shadow: -5px 6px 16px -2px var(--color-black);*/
 }
 
 .f-miniproject-thumbnail__image {
