@@ -164,16 +164,23 @@ BLOCK f-miniproject-thumbnail
 
 @import "../variables";
 .f-miniproject-thumbnail {
-	min-height: 35.2rem;
-	max-width: 50rem;
+	min-height: 42rem;
+	min-width: 28rem;
 	margin: 0 3.6rem 3.0rem 0;
 
 	border-radius: 0.5rem;
 	background-color: var(--color-white);
+
+/*	border-style: solid;
+	border-width: 1px;*/
+
+	-webkit-box-shadow: -5px 6px 16px -2px var(--color-black);
+    -moz-box-shadow: -5px 6px 16px -2px var(--color-black);
+    box-shadow: -5px 6px 16px -2px var(--color-black);
 }
 
 .f-miniproject-thumbnail__image {
-	height: 16rem;
+	height: 22rem;
 	width: 100%;
 	margin: 0 0 0 0;
 	margin-bottom: 1rem;
@@ -225,7 +232,7 @@ BLOCK f-miniproject-thumbnail
 
 
 .f-miniproject-thumbnail__content {
-	height: 14rem;
+	height: 19rem;
 	padding-left: var(--gutter-width);
 
 	margin-bottom: 1rem;

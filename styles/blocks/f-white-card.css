@@ -39,8 +39,12 @@ BLOCK f-white-card
 	margin-bottom: 3rem;
 	padding: 6.5rem 0 6.5rem 0;
 
-	text-align: center;
-
 	background: var(--color-white);
 }
 
+.f-white-card_history {
+	height: 84rem;
+	text-align: none;
+
+
+}
