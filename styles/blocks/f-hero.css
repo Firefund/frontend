@@ -53,7 +53,7 @@ BLOCK f-hero
 
 	/*TODO: set background-image via js */
 /*	background-image: url(../../assets/image/projecthero.png);*/
-	background-image: url(../../assets/image/Sepian.png);
+	background-image: url(../../assets/image/Sepian.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom; /* cut sides until media query limit */
 }
@@ -118,9 +118,9 @@ BLOCK f-hero
 	padding-left: 0.8rem;
 
 	background-color: var(--color-black-transparent);
-  color: var(--color-white);
-  font-size: 4.5rem;
-  font-weight: bold;
+  	color: var(--color-white);
+ 	font-size: 4.5rem;
+ 	font-weight: bold;
 }
 
 .f-hero__text {
