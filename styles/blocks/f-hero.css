@@ -103,9 +103,9 @@ BLOCK f-hero
 	padding-right: 1.4rem;
 	padding-left: 0.8rem;
 
-/*	background-color: var(--color-black-transparent);*/
+	background-color: var(--color-black-transparent);
 
-	color: var(--color-black);
+	color: var(--color-white);
 	font-size: 7.7rem;
 	font-weight: lighter;
 }
