@@ -61,6 +61,7 @@ BLOCK f-hero
 .f-hero.f-hero_big {
 	height: 82rem;
 }
+
 .f-hero__project {
 	background-image: url(../../assets/image/rentstrike3.jpg);
 	background-repeat: no-repeat;
@@ -71,6 +72,8 @@ BLOCK f-hero
 .f-hero img { display: none; }
 
 .f-hero__wrapper {
+	padding-top: 20%;
+
 	lost-center: var(--page-max-width);
 }
 
