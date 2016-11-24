@@ -285,6 +285,12 @@ BLOCK f-miniproject-thumbnail
 	margin-left: 3.4rem;
 }
 
+.f-miniproject-thumbnail__conclusion {
+	font-weight: lighter;
+
+	text-align: right;
+}
+
 .f-miniproject-thumbnail__progress__bar,
 .f-miniproject-thumbnail__progress__value {
 	height: 0.3rem;
