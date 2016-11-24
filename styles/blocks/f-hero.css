@@ -76,6 +76,13 @@ BLOCK f-hero
 	background-position: center bottom; /* cut sides until media query limit */
 }
 
+.f-hero__base {
+	height: 35rem;
+	background-image: url(../../assets/image/thebase.png);
+	background-repeat: no-repeat;
+	background-position: center bottom; /* cut sides until media query limit */
+}
+
 
 
 /* `<img>` tags are hidden */
@@ -118,9 +125,9 @@ BLOCK f-hero
 	padding-right: 1.4rem;
 	padding-left: 0.8rem;
 
-/*	background-color: var(--color-black-transparent);
-*/
-	color: var(--color-black);
+	background-color: var(--color-black);
+
+	color: var(--color-white);
 	font-size: 7.7rem;
 	font-weight: lighter;
 }
