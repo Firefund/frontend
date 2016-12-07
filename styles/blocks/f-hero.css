@@ -46,42 +46,34 @@ BLOCK f-hero
 @import "../variables";
 
 .f-hero {
-	height: 36rem;
+	height: 30rem;
 	width: 100%;
 	margin-bottom: 3rem;
 	padding-top: 4rem;
 
 	/*TODO: set background-image via js */
 /*	background-image: url(../../assets/image/projecthero.png);*/
-	background-image: url(../../assets/image/rentstrikeblackandwhite.png);
+	background-image: url(../../assets/image/Sepian.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom; /* cut sides until media query limit */
 }
 
 .f-hero.f-hero_big {
-	height: 46rem;
+	height: 82rem;
 }
 
-.f-hero__rentstrike {
-	height: 35rem;
-	background-image: url(../../assets/image/rentstrike3.png);
+.f-hero__project {
+	background-image: url(../../assets/image/rentstrike3.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom; /* cut sides until media query limit */
-}
-
-.f-hero__bringshadihome {
-	height: 35rem;
-	background-image: url(../../assets/image/bringshadihomehero.png);
-	background-repeat: no-repeat;
-	background-position: center bottom; /* cut sides until media query limit */
-}
-
-
+	}
 
 /* `<img>` tags are hidden */
 .f-hero img { display: none; }
 
 .f-hero__wrapper {
+	padding-top: 20%;
+
 	lost-center: var(--page-max-width);
 }
 
@@ -90,13 +82,6 @@ BLOCK f-hero
 
   	margin: 5.5 0 0 var(--gutter-width);
 }
-
-.f-hero__heading_center {
-	text-align: center;
-}
-
-
-
 .f-hero__heading::before {
 	display: none;
 
@@ -118,9 +103,9 @@ BLOCK f-hero
 	padding-right: 1.4rem;
 	padding-left: 0.8rem;
 
-/*	background-color: var(--color-black-transparent);
-*/
-	color: var(--color-black);
+	background-color: var(--color-black-transparent);
+
+	color: var(--color-white);
 	font-size: 7.7rem;
 	font-weight: lighter;
 }
@@ -133,19 +118,15 @@ BLOCK f-hero
 	padding-left: 0.8rem;
 
 	background-color: var(--color-black-transparent);
-  color: var(--color-white);
-  font-size: 4.5rem;
-  font-weight: bold;
+  	color: var(--color-white);
+ 	font-size: 4.5rem;
+ 	font-weight: bold;
 }
 
 .f-hero__text {
 	position: relative;
 
 	margin: 0.16rem 0 0 0.4rem;
-}
-
-.f-hero__text_center {
-	text-align: center;
 }
 
 .f-hero__text_splash {
