@@ -126,7 +126,7 @@ MODIFIER f-accordian_link
 }
 
 .f-accordian__heading {
-	margin: 2rem 0 0 0;
+	margin: 0;
 
 	color: var(--color-grey-dark);
 	font-size: 3.6rem;
@@ -143,12 +143,12 @@ MODIFIER f-accordian_link
 }
 
 .f-accordian__cuff-text {
-	margin: 2rem 0 0 0;
+	margin: 0;
 	height: 6.4rem;
 
 	color: var(--color-grey-dark);
 	font-size: 1.8rem;
-	font-weight: light;
+	font-weight: lighter;
 	line-height: 2.4rem;
 
 	transition: 250ms color;
@@ -182,6 +182,24 @@ MODIFIER f-accordian_link
 	transition: 250ms transform, 250ms color;
 }
 
+.f-accordian__arrow_icon {
+	/*TODO: make this a pseudo element. content: "";*/
+	font-size: 4rem;
+
+	position: absolute;
+	top: -1rem;
+
+	width: 8rem;
+	height: 8rem;
+
+	color: var(--color-red);
+
+	border-bottom: none;
+	border-right: none;
+
+	transform: rotate(0deg);
+}
+
 .f-accordian__content {
 	max-height: 0;
 
@@ -193,7 +211,7 @@ MODIFIER f-accordian_link
   .f-accordian_open is the modifier for an open accordian
 */
 .f-accordian_open .f-accordian__content {
-	max-height: 300rem;
+	max-height: 250rem;
 }
 
 .f-accordian_open, .f-accordian_open .f-accordian__arrow div {
@@ -223,7 +241,7 @@ MODIFIER f-accordian_link
 	}
 
 	.f-accordian__arrow {
-		height: 6rem!important;
+		height: 6rem;
 	}
 
 	.f-accordian__arrow div,
@@ -284,11 +302,11 @@ MODIFIER f-accordian_link
 */
 
 .f-accordian_link .f-accordian__heading {
-	margin-bottom: 0;
+	margin-bottom: 2rem;
 }
 
 .f-accordian_link .f-accordian__cuff-wrapper {
-	height: 6.4rem;
+	height: 4.4rem;
 }
 
 .f-accordian_link .f-accordian__cuff-wrapper {
@@ -296,10 +314,10 @@ MODIFIER f-accordian_link
 }
 
 .f-accordian_link .f-accordian__arrow div {
-	top: 1.2rem;
+	top: 3.7rem;
 	
-	width: 2rem;
-	height: 2rem;
+	width: 2.5rem;
+	height: 2.5rem;
 		
 	border-color: var(--color-red);
 	
@@ -308,9 +326,15 @@ MODIFIER f-accordian_link
 
 @media screen and (--viewport-desktop) {
 	.f-accordian_link .f-accordian__arrow div {
-		top: 6rem;
+		top: 5rem;
 
 		width: 3rem;
 		height: 3rem;
+	}
+}
+
+@media screen and (--viewport-desktop) {
+	.f-accordian__arrow_icon {
+		right: 7rem !important;
 	}
 }

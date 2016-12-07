@@ -171,8 +171,8 @@ MODIFIER f-progress_flyout
 
 .f-progress {
 	width: 100%;
-  	margin-bottom: 2.2rem;
-	padding-top: 1.4rem;
+
+	padding-top: 1.4rem
 }
 
 .f-progress__bar, .f-progress__value {
@@ -180,7 +180,7 @@ MODIFIER f-progress_flyout
 }
 
 .f-progress__bar {
-	margin-bottom: 1.8rem;
+	margin-bottom: 1rem;
 
 	background-color: var(--color-black);
 }
@@ -205,10 +205,9 @@ MODIFIER f-progress_flyout
 
 .f-progress__data-element {
 	margin: 0;
-
-  	color: var(--color-grey);
-  	font-weight: normal;
-  	line-height: 2.2rem;
+	color: var(--color-grey);
+	font-weight: normal;
+	line-height: 2.2rem;
 }
 .f-progress__data-element span {
   	color: var(--color-grey-dark);
@@ -222,7 +221,7 @@ MODIFIER f-progress_flyout
 .f-progress_small {}
 .f-progress_small .f-progress__bar {
 	height: .3rem;
-	margin: 0 0 .5rem;
+	margin: 0 0 2.2rem;
 
 	background-color: var(--color-grey);
 }

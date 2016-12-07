@@ -166,7 +166,11 @@ BLOCK f-miniproject-thumbnail
 .f-miniproject-thumbnail {
 	min-height: 35.2rem;
 	max-width: 50rem;
-	margin: 0 3.6rem 3.0rem 0;
+
+	padding-bottom: 1rem;
+	margin: 0 3.6rem 3.0rem 5rem;
+	/*TODO: The margin-left is a hack to overcome the missing 'only one' solution in the column grid,*/
+	/*and it needs to be changed when applying more than 1 miniproject-thumbnail*/
 
 	border-radius: 0.5rem;
 	background-color: var(--color-white);
@@ -203,7 +207,7 @@ BLOCK f-miniproject-thumbnail
 }
 
 .f-miniproject-thumbnail__info {
-	margin: 0 3.4rem 0.76rem 0;
+	margin: 0 3.4rem 2.2rem 0;
 }
 
 .f-miniproject-thumbnail__image-text {
@@ -225,7 +229,7 @@ BLOCK f-miniproject-thumbnail
 
 
 .f-miniproject-thumbnail__content {
-	height: 14rem;
+	height: 15rem;
 	padding-left: var(--gutter-width);
 
 	margin-bottom: 1rem;
@@ -244,7 +248,7 @@ BLOCK f-miniproject-thumbnail
 	padding: .68rem 1.0rem .86rem var(--gutter-width);
 
 	color: var(--color-white);
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	font-weight: bold;
 
 	background-color: var(--color-black);
@@ -252,7 +256,7 @@ BLOCK f-miniproject-thumbnail
 
 .f-miniproject-thumbnail__byline {
 	/*margin: 0 0 0 3.4rem;*/
-	margin: 0;
+	margin: 0 0 1.2rem 0;
 
 	color: var(--color-grey);
 	font-size: 1.2rem;
@@ -264,10 +268,10 @@ BLOCK f-miniproject-thumbnail
 	/*margin: 1.08rem 0 0 3.4rem;*/
 	margin: 0 0 1rem;
 
-	color: var(--color-grey);
-	font-size: 1.2rem;
-	font-weight: normal;
-	line-height: 1.5rem;
+	color: var(--color-grey-dark);
+	font-size: 1.4rem;
+	font-weight: lighter;
+	line-height: 1.8rem;
 
 	overflow: hidden;
 }
@@ -278,7 +282,7 @@ BLOCK f-miniproject-thumbnail
 
 .f-miniproject-thumbnail__progress__bar,
 .f-miniproject-thumbnail__progress__value {
-	height: 0.3rem;
+	height: 0.5rem;
 }
 
 .f-miniproject-thumbnail__progress__bar {
@@ -301,7 +305,7 @@ BLOCK f-miniproject-thumbnail
 	flex-direction: row;
 	justify-content: space-between;
 
-	font-size: 1rem;
+	font-size: 1.4rem;
 	white-space: nowrap;
 }
 

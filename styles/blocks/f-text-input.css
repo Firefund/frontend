@@ -10,6 +10,7 @@ MODIFIER f-text-input_multiline
 MODIFIER f-text-input_disable
 	ELEMENT f-text-input__label
 	ELEMENT f-text-input__text-field
+	MODIFIER f-text-input__text-field_btc
 </pre>
 
 ## Input field
@@ -156,6 +157,12 @@ LjSacZsYqWRmM+9k6w3XZren33fIXweEguZ7raQapV8=
 	display: block;
 	padding: 0.5rem;
 }
+
+.f-text-input__text-field_btc {
+	font-size: 1.4rem;
+	color: var(--color-black);
+}
+
 .f-text-input__text-field::placeholder {
 	padding-left: .5rem; /*TODO: only works in chrome */
 }

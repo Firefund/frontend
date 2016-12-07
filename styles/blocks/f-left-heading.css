@@ -68,6 +68,7 @@ If the container isn't `f-content`', then the heading will *leak* out.
 	
 	color: var(--color-white);
 	font-size: 3.0rem;
+	font-weight: normal;
 
 	background-color: var(--color-black);
 }

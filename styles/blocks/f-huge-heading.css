@@ -29,6 +29,10 @@ MODIFIER f-huge-heading_scroll
 	font-size: 6.6rem;
 }
 
+.f-huge-heading_short {
+	margin: 1rem 0 1rem 0;
+}
+
 .f-huge-heading_scroll {
 	padding:2em;
 
