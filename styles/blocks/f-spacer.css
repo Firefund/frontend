@@ -29,5 +29,6 @@ So you can't see it without something on each side.
 }
 
 .f-spacer_big {
+	display: block;
 	height: 30rem;
 }

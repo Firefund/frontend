@@ -143,6 +143,24 @@ I'm keeping these examples as a reminder but **DON'T USE THEM!**
 	overflow: hidden;
 }
 
+/*For soft-soft launch. TODO: BEM structure*/
+.f-button-group__header {
+	padding-right: 1.2rem;
+	
+	font-weight: lighter;
+	font-size: 3rem;
+
+}
+
+.f-button-group__cuff {
+	display: block;
+	
+	font-weight: lighter;
+	font-size: 1.6rem;
+
+	height: 15rem;
+}
+
 .f-button-group__button:hover, .f-button-group__button:focus {
 	background-position: left 13%;
 }

@@ -225,7 +225,7 @@ BLOCK f-payment
 
 
 .f-payment__heading {
-	margin: 0 0 1.9rem -var(--gutter-width);
+	margin: 0 0 1.9rem -3.5rem; /*3.5rem instead of variable to eliminate the thin line*/
 	padding: .8rem 1.93rem .8rem var(--gutter-width);
 	
 	color: var(--color-white);

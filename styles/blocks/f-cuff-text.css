@@ -1,6 +1,9 @@
 /*
 Bold text with big line-height
 
+PROPOSAL: 
+To move this into the f-text BEM. 
+
 ## Example 1
 ```
 <div class="kalei-background-white"> <!-- only here for the style guide - should not be used on the website -->

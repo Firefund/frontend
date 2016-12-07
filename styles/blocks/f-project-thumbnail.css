@@ -173,6 +173,8 @@ BLOCK f-project-thumbnail
 }
 
 .f-project-thumbnail__content_soft {
+	height: 22rem;
+
 	mask-image: none;
 	mask: none;
 }
@@ -197,36 +199,42 @@ BLOCK f-project-thumbnail
 
 	margin: 0;
 
-	color: var(--color-grey);
-	font-size: 1.5rem;
-	font-weight: normal;
-	line-height: 1.5rem;
+	color: var(--color-grey-dark);
+	font-size: 1.6rem;
+	font-weight: lighter;
+	line-height: 2rem;
 
 	overflow: hidden;
 }
+
+.f-project-thumbnail__text_sender {
+	font-size: 1.2rem;
+	margin-top: 1rem;
+}
+
 .f-project-thumbnail__summary {
 	position: absolute;
 	/* display: flex is set on f-progress__data */
 	flex-direction: column;
 	clip: rect(0, 50rem, 2rem, 0);
-	height: 2rem;
+/*	height: 2rem;*/
 	margin-left: var(--gutter-width);
 
-  color: var(--color-grey-dark);
-  line-height: 1.2;
+	color: var(--color-grey-dark);
+	line-height: 1.2;
 }
 .f-progress-thumbnail__data-element {
-	 margin: 0;
+	margin: 0;
 
-  color: var(--color-grey-dark);
-  line-height: 1.2;
+	color: var(--color-grey-dark);
+	line-height: 1.2;
 
-  will-change: transform;
-  animation-duration: 8s;
-  animation-name: odometer;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: none;
+	will-change: transform;
+	animation-duration: 8s;
+	animation-name: odometer;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: none;
 }
 .f-project-thumbnail__summary span {
 	color: var(--color-red);

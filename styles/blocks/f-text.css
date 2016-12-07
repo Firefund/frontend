@@ -8,6 +8,7 @@ BLOCK f-text
 MODIFIER f-text_attention
     ELEMENT f-text__heading
     ELEMENT f-text__text
+
 </pre>
 
 ## EXAMPLE 1
@@ -115,7 +116,7 @@ MODIFIER f-text_attention
 
 .f-text {}
 
-.f-text_attention .f-text__heading {
+.f-text_attention {
     color: var(--color-red);
 }
 
@@ -134,7 +135,7 @@ MODIFIER f-text_attention
 
     color: var(--color-grey-dark);
     font-weight: lighter;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.82rem;
     text-rendering: optimizeLegibility;
 }
