@@ -85,3 +85,15 @@ If the container isn't `f-content`', then the heading will *leak* out.
 	background-color: var(--color-black);
 }
 
+
+.f-left-heading_white-card {
+	margin-top: 0;
+
+	color: var(--color-black);
+	font-size: 6rem;
+	font-weight: lighter;
+
+	background-color: var(--color-white);
+
+}
+

@@ -80,3 +80,43 @@ BLOCK f-button-organize
 .f-button-organize::first-letter {
 	text-transform: uppercase;
 }
+
+.f-button-organize_hero {
+	display: block;
+	width: 40%;
+
+	margin: 3rem 0 1.4rem;
+	padding: 2.2rem 0 2.3rem 0;
+
+	color: var(--color-white);
+	font-size: 2.4rem;
+	text-align: center;
+
+	border: 1px solid var(--color-white);
+	border-radius: 0.8rem;
+  	background-color: rgba(0, 0, 0, 0.65);
+	box-shadow: 0 0rem 0 var(--color-black), inset 0 0rem 0 var(--color-black);
+
+	transition-property: box-shadow, top;
+	transition-duration: 100ms;
+	transition-timing-function: linear;
+
+	outline: 0 none;
+	cursor: pointer;
+}
+
+.f-button-organize_hero::-moz-focus-inner {
+	border: 0; /*KLUDGE: remove outline in Firefox */
+}
+
+.f-button-organize_hero:hover {
+	box-shadow: 0 .3rem 0 var(--color-black), inset 0 -.4rem 0 var(--color-black);
+}
+.f-button-organize_hero:active {
+	top: .3rem;
+	box-shadow: 0 0rem 0 var(--color-black), inset 0 -.4rem 0 var(--color-black);
+}
+
+.f-button-organize_hero::first-letter {
+	text-transform: uppercase;
+}

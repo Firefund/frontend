@@ -164,6 +164,11 @@ BLOCK f-miniproject-thumbnail
 
 @import "../variables";
 .f-miniproject-thumbnail {
+<<<<<<< HEAD
+	min-height: 42rem;
+	min-width: 28rem;
+	margin: 0 3.6rem 3.0rem 0;
+=======
 	min-height: 35.2rem;
 	max-width: 50rem;
 
@@ -171,13 +176,21 @@ BLOCK f-miniproject-thumbnail
 	margin: 0 3.6rem 3.0rem 5rem;
 	/*TODO: The margin-left is a hack to overcome the missing 'only one' solution in the column grid,*/
 	/*and it needs to be changed when applying more than 1 miniproject-thumbnail*/
+>>>>>>> master
 
 	border-radius: 0.5rem;
 	background-color: var(--color-white);
+
+	border-style: solid;
+	border-width: 1px;
+
+/*	-webkit-box-shadow: -5px 6px 16px -2px var(--color-black);
+    -moz-box-shadow: -5px 6px 16px -2px var(--color-black);
+    box-shadow: -5px 6px 16px -2px var(--color-black);*/
 }
 
 .f-miniproject-thumbnail__image {
-	height: 16rem;
+	height: 22rem;
 	width: 100%;
 	margin: 0 0 0 0;
 	margin-bottom: 1rem;
@@ -229,7 +242,11 @@ BLOCK f-miniproject-thumbnail
 
 
 .f-miniproject-thumbnail__content {
+<<<<<<< HEAD
+	height: 19rem;
+=======
 	height: 15rem;
+>>>>>>> master
 	padding-left: var(--gutter-width);
 
 	margin-bottom: 1rem;
@@ -248,8 +265,9 @@ BLOCK f-miniproject-thumbnail
 	padding: .68rem 1.0rem .86rem var(--gutter-width);
 
 	color: var(--color-white);
-	font-size: 2.5rem;
-	font-weight: bold;
+
+	font-size: 1.8rem;
+	font-weight: lighter;
 
 	background-color: var(--color-black);
 }
@@ -259,8 +277,8 @@ BLOCK f-miniproject-thumbnail
 	margin: 0 0 1.2rem 0;
 
 	color: var(--color-grey);
-	font-size: 1.2rem;
-	font-weight: bold;
+	font-size: 1.4rem;
+	font-weight: normal;
 }
 
 .f-miniproject-thumbnail__text {
@@ -268,16 +286,24 @@ BLOCK f-miniproject-thumbnail
 	/*margin: 1.08rem 0 0 3.4rem;*/
 	margin: 0 0 1rem;
 
-	color: var(--color-grey-dark);
+	color: var(--color-grey);
 	font-size: 1.4rem;
 	font-weight: lighter;
-	line-height: 1.8rem;
+	line-height: 1.7rem;
+
+	padding-bottom: 1.6rem;
 
 	overflow: hidden;
 }
 
 .f-miniproject-thumbnail__progress {
 	margin-left: 3.4rem;
+}
+
+.f-miniproject-thumbnail__conclusion {
+	font-weight: lighter;
+
+	text-align: right;
 }
 
 .f-miniproject-thumbnail__progress__bar,
@@ -307,6 +333,8 @@ BLOCK f-miniproject-thumbnail
 
 	font-size: 1.4rem;
 	white-space: nowrap;
+
+	padding-bottom: 1.6rem;
 }
 
 .f-miniproject-thumbnail__progress__data-element {
