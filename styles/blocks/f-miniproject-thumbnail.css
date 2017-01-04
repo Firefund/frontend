@@ -5,23 +5,15 @@ Mini thumbnails!
 
 <pre>
 
-So we're almost there. They are fully functional, I would say. Minor bugs, tho. And the 'text on image' I cannot do at the moment.
+Oh, it could be sweet, if pictures had that delicous scroll effect we all know from Soundclouds mobile app. Where pictures moves a bit slower than everything else, when you scroll down. 
+And then another nice-to-have, is the last element! A easy-to-use way to put text on top of pictures. Could be swell'! 
 
-TO DO's:
-- Browser checkup for grayscale - Chrome, Safari and Firefox 👏 👍 🤘
-- f-mini-project-thumbnail__image-text - 👎 CAN'T DO IT 😿🔫
-- Scrollme for mobile - Waiting for webcomponents!
-- Clean up HTML - Done.
-- Clean up CSS and re-read (+comments) - Doin' it when I've solved my last hurdle, I guess.
-- Test optimal pre-cropping of images
-- Write down optimal count for text-bits
-- Clean the imported progress-BEM (maybe? New names?)
-- For Jon: Test how easy it is to use the f-progress, instead of my copied code here. If we just use f-progress, I'm guessing it would be easier on the serverside.
 </pre>
 
 <pre>
 BLOCK f-miniproject-thumbnail
 	MODIFIER f-miniproject-thumbnail_reverse
+	ELEMENT f-miniproject-thumbnail__conclusion
     ELEMENT f-miniproject-thumbnail__info (This is all informative content - so everything minus the image)
     ELEMENT f-miniproject-thumbnail__content (This is all content for the specific campaign - minus the 'data' (__progress))
     ELEMENT f-miniproject-thumbnail__heading (1-2 lines but same height, flexbox centered <-- oh, didn't do that)
@@ -164,19 +156,9 @@ BLOCK f-miniproject-thumbnail
 
 @import "../variables";
 .f-miniproject-thumbnail {
-<<<<<<< HEAD
 	min-height: 42rem;
 	min-width: 28rem;
 	margin: 0 3.6rem 3.0rem 0;
-=======
-	min-height: 35.2rem;
-	max-width: 50rem;
-
-	padding-bottom: 1rem;
-	margin: 0 3.6rem 3.0rem 5rem;
-	/*TODO: The margin-left is a hack to overcome the missing 'only one' solution in the column grid,*/
-	/*and it needs to be changed when applying more than 1 miniproject-thumbnail*/
->>>>>>> master
 
 	border-radius: 0.5rem;
 	background-color: var(--color-white);
@@ -220,7 +202,7 @@ BLOCK f-miniproject-thumbnail
 }
 
 .f-miniproject-thumbnail__info {
-	margin: 0 3.4rem 2.2rem 0;
+	margin: 0 3.4rem 0.76rem 0;
 }
 
 .f-miniproject-thumbnail__image-text {
@@ -242,11 +224,7 @@ BLOCK f-miniproject-thumbnail
 
 
 .f-miniproject-thumbnail__content {
-<<<<<<< HEAD
-	height: 19rem;
-=======
-	height: 15rem;
->>>>>>> master
+	height: 17rem;
 	padding-left: var(--gutter-width);
 
 	margin-bottom: 1rem;
@@ -254,8 +232,8 @@ BLOCK f-miniproject-thumbnail
 
 	/*TODO: Only work in blink browsers */
 	/*Set's the height of the whole content area. For longer thumbnails, this is the one.*/
-	mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 69%, rgba(0, 0, 0, 0) 96%);
-	mask: linear-gradient(to bottom, rgba(0, 0, 0, 1) 69%, rgba(0, 0, 0, 0) 96%);
+	/*mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 69%, rgba(0, 0, 0, 0) 96%);
+	mask: linear-gradient(to bottom, rgba(0, 0, 0, 1) 69%, rgba(0, 0, 0, 0) 96%);*/
 }
 
 .f-miniproject-thumbnail__heading {
@@ -265,7 +243,6 @@ BLOCK f-miniproject-thumbnail
 	padding: .68rem 1.0rem .86rem var(--gutter-width);
 
 	color: var(--color-white);
-
 	font-size: 1.8rem;
 	font-weight: lighter;
 
@@ -274,7 +251,7 @@ BLOCK f-miniproject-thumbnail
 
 .f-miniproject-thumbnail__byline {
 	/*margin: 0 0 0 3.4rem;*/
-	margin: 0 0 1.2rem 0;
+	margin: 0;
 
 	color: var(--color-grey);
 	font-size: 1.4rem;
@@ -291,13 +268,9 @@ BLOCK f-miniproject-thumbnail
 	font-weight: lighter;
 	line-height: 1.7rem;
 
-	padding-bottom: 1.6rem;
+/*	padding-bottom: 1.6rem;*/
 
 	overflow: hidden;
-}
-
-.f-miniproject-thumbnail__progress {
-	margin-left: 3.4rem;
 }
 
 .f-miniproject-thumbnail__conclusion {
@@ -306,9 +279,14 @@ BLOCK f-miniproject-thumbnail
 	text-align: right;
 }
 
+
+.f-miniproject-thumbnail__progress {
+	margin-left: 3.4rem;
+}
+
 .f-miniproject-thumbnail__progress__bar,
 .f-miniproject-thumbnail__progress__value {
-	height: 0.5rem;
+	height: 0.3rem;
 }
 
 .f-miniproject-thumbnail__progress__bar {
@@ -331,7 +309,7 @@ BLOCK f-miniproject-thumbnail
 	flex-direction: row;
 	justify-content: space-between;
 
-	font-size: 1.4rem;
+	font-size: 1rem;
 	white-space: nowrap;
 
 	padding-bottom: 1.6rem;
